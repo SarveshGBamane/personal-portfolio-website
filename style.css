@@ -89,11 +89,11 @@ ul li a:hover {
   border-radius: 10px;
   margin-top: 24px;
   color: white;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .mainText button a {
-  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  text-decoration: none;
   color: white;
 
 }
@@ -102,7 +102,7 @@ ul li a:hover {
   border: 2px solid rgb(0, 149, 255);
   background-color: transparent;
   cursor: pointer;
-  transform: scale(1.05); /* Slightly enlarge the button */
+  transform: scale(1.05);
 }
 
 .head {
@@ -170,7 +170,7 @@ ul li a:hover {
 }
 
 .projectsCard a {
-  text-decoration: none; /* Remove underline from all links */
+  text-decoration: none; 
   position: absolute;
   margin-top: 20px;
   padding: 6px 12px;
@@ -182,7 +182,7 @@ ul li a:hover {
 /* Hover effect for all anchor links */
 .projectsCard a:hover {
   background-color: rgb(0, 149, 255);
-  transform: scale(1.05); /* Slightly enlarge the button */
+  transform: scale(1.05); 
 }
 
 .internship {
@@ -199,7 +199,7 @@ ul li a:hover {
   margin-inline: 20px;
   border-radius: 5px;
   margin-top: 22px;
-  position: relative; /* Make sure the button is positioned correctly */
+  position: relative; 
 }
 
 .card p {
@@ -213,9 +213,8 @@ ul li a:hover {
 #internshipBtn1 {
   text-decoration: none;
   position: absolute;
-  bottom: 20px; /* Position the button at the bottom of the card */
+  bottom: 20px; 
   left: 50%;
-  transform: translateX(-50%); /* Center the button horizontally */
   padding: 8px 16px;
   background-color: rgb(0, 128, 255);
   color: white;
@@ -223,23 +222,23 @@ ul li a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 #internshipBtn1 a{ 
-  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  text-decoration: none; 
   color: white;
 
 }
 
-/* Hover effect for internship buttons */
+
 #internshipBtn1:hover {
-  background-color: rgb(0, 149, 255); /* Change color on hover */
-  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+  background-color: rgb(0, 149, 255); 
+  transform: translateX(-50%) scale(1.05); 
 }
 
 #internshipBtn2 {
   text-decoration: none;
   position: absolute;
-  bottom: 20px; /* Position the button at the bottom of the card */
+  bottom: 20px;
   left: 50%;
-  transform: translateX(-50%); /* Center the button horizontally */
+  transform: translateX(-50%); 
   padding: 8px 16px;
   background-color: rgb(0, 128, 255);
   color: white;
@@ -247,13 +246,12 @@ ul li a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect for internship buttons */
 #internshipBtn2:hover {
-  background-color: rgb(0, 149, 255); /* Change color on hover */
-  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+  background-color: rgb(0, 149, 255); 
+  transform: translateX(-50%) scale(1.05); 
 }
 #internshipBtn2 a{ 
-  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  text-decoration: none; 
   color: white;
 
 }
@@ -261,9 +259,9 @@ ul li a:hover {
 #internshipBtn3 {
   text-decoration: none;
   position: absolute;
-  bottom: 20px; /* Position the button at the bottom of the card */
+  bottom: 20px; 
   left: 50%;
-  transform: translateX(-50%); /* Center the button horizontally */
+  transform: translateX(-50%); 
   padding: 8px 16px;
   background-color: rgb(0, 128, 255);
   color: white;
@@ -271,13 +269,12 @@ ul li a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect for internship buttons */
 #internshipBtn3:hover {
-  background-color: rgb(0, 149, 255); /* Change color on hover */
-  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+  background-color: rgb(0, 149, 255); 
+  transform: translateX(-50%) scale(1.05); 
 }
 #internshipBtn3 a{ 
-  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  text-decoration: none;
   color: white;
 
 }
@@ -316,7 +313,6 @@ ul li a:hover {
   margin-top: 12px;
 }
 
-/* Media Queries */
 @media screen and (max-width: 1000px) {
   .main {
     display: block;
