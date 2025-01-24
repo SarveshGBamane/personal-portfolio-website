@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  font-family:'Open Sans', sans-serif;
+  background-color: #040311;
+  color: white;
+}
+
+
+/* Navigation styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px;
+  position: fixed;
+  background-image: linear-gradient(to right, #020d1a, #000c23, #000a2d, #000735, #02023b);
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  margin-inline: 22px;
+
+}
+
+ul li a:hover {
+  color: rgb(0, 140, 255);
+  border-bottom: 2px solid rgb(0, 140, 255);
+}
+
+#bar {
+  display: none;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.logo span {
+  color: rgb(0, 153, 255);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+}
+
+.mainText h1 {
+  font-size: 70px;
+}
+
+.mainText h1 span {
+  color: rgb(0, 153, 255);
+}
+
+.mainText h3 {
+  font-size: 28px;
+}
+
+.mainText p {
+  font-size: 30px;
+}
+
+.mainText button {
+  width: 160px;
+  height: 60px;
+  background-color: rgb(0, 157, 255);
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 24px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover */
+}
+
+.mainText button a {
+  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  color: white;
+
+}
+/* Hover effect for all buttons */
+.mainText button:hover {
+  border: 2px solid rgb(0, 149, 255);
+  background-color: transparent;
+  cursor: pointer;
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.head {
+  text-align: center;
+  padding: 50px;
+  margin-top: 75px;
+}
+
+.head span {
+  color: rgb(0, 140, 255);
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  padding: 52px;
+}
+
+.about img {
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid rgb(11, 47, 104);  
+
+  margin-inline: 65px;
+}
+
+.aboutText p {
+  margin-top: 22px;
+}
+
+.aboutText p span {
+  color: rgb(83, 128, 201);
+}
+
+.aboutText h2 {
+  font-size: 30px;
+}
+
+.myProjects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsCard {
+  width: 300px;
+  height: 310px;
+  background-color: #232323;
+  border-radius: 5px;
+  margin-inline: 20px;
+  padding: 11px;
+  margin-top: 22px;
+}
+
+.projectsCard img {
+  width: 100%;
+  height: 200px;
+}
+
+.projectsCard p {
+  margin-top: 11px;
+}
+
+.projectsCard a {
+  text-decoration: none; /* Remove underline from all links */
+  position: absolute;
+  margin-top: 20px;
+  padding: 6px 12px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for all anchor links */
+.projectsCard a:hover {
+  background-color: rgb(0, 149, 255);
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.internship {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  padding: 22px;
+  background-color: rgb(34, 34, 34);
+  margin-inline: 20px;
+  border-radius: 5px;
+  margin-top: 22px;
+  position: relative; /* Make sure the button is positioned correctly */
+}
+
+.card p {
+  margin-top: 11px;
+}
+
+.card i {
+  font-size: 26px;
+}
+
+#internshipBtn1 {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px; /* Position the button at the bottom of the card */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  padding: 8px 16px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#internshipBtn1 a{ 
+  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  color: white;
+
+}
+
+/* Hover effect for internship buttons */
+#internshipBtn1:hover {
+  background-color: rgb(0, 149, 255); /* Change color on hover */
+  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+}
+
+#internshipBtn2 {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px; /* Position the button at the bottom of the card */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  padding: 8px 16px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for internship buttons */
+#internshipBtn2:hover {
+  background-color: rgb(0, 149, 255); /* Change color on hover */
+  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+}
+#internshipBtn2 a{ 
+  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  color: white;
+
+}
+
+#internshipBtn3 {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px; /* Position the button at the bottom of the card */
+  left: 50%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  padding: 8px 16px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for internship buttons */
+#internshipBtn3:hover {
+  background-color: rgb(0, 149, 255); /* Change color on hover */
+  transform: translateX(-50%) scale(1.05); /* Slightly enlarge the button */
+}
+#internshipBtn3 a{ 
+  text-decoration: none; /* Removes the underline from any <a> tag inside the button */
+  color: white;
+
+}
+
+.contact {
+  width: 300px;
+  padding: 20px;
+  background-color: #303030;
+  margin: auto;
+}
+
+.contact p {
+  margin-top: 20px;
+}
+
+.contact span {
+  color: rgb(83, 128, 201);
+}
+
+.contact a{
+  color: #fff;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 55px;
+  margin-top: 66px;
+  background-image: linear-gradient(to right, #020d1a, #000c23, #000a2d, #000735, #02023b);
+}
+.text {
+  margin-top: 20px;
+}
+
+.text p {
+  margin-top: 12px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+  .main {
+    display: block;
+    text-align: center;
+    margin-top: 155px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    display: none;
+  }
+
+  .showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px;
+    background-color: rgb(60, 59, 59);
+    gap: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 75px;
+    right: 3%;
+  }
+
+  #bar {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mainText h1 {
+    font-size: 36px;
+  }
+
+  .mainText h3 {
+    font-size: 21px;
+  }
+
+  .mainText p {
+    font-size: 20px;
+  }
+
+  .main img {
+    width: 90%;
+  }
+
+  .contact {
+    width: 80%;
+  }
+}
+
+#main_image {
+  margin-left: 50px;
+  margin-top: 50px;
+  border:solid;
+  color: rgb(12, 40, 84);
+  
+  border-radius: 100%;
+}
